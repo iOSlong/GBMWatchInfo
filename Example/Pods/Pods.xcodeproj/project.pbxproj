@@ -10,10 +10,10 @@
 		20C0B7DAC7DCD400EB23053AA16F280E /* Pods-GBMWatchInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B754D01B06B205D743F234605C4273 /* Pods-GBMWatchInfo_Tests-dummy.m */; };
 		385356EA99E26BD3242DF3721C086928 /* GBMWatchInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C97AABC6970F283C988E50A572F2248D /* GBMWatchInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B1ECEEFF7D7F564BD53B479BC848276 /* GBMWatchInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 622F00A5DD277D27F92D03425E7876C2 /* GBMWatchInfo-dummy.m */; };
-		B1F5AEBE2147B80F0060E50D /* GBMWatchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */; };
-		B1F5AEBF2147B80F0060E50D /* GBMWatchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */; };
-		B1F5AEC22147B8430060E50D /* GBMWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEC02147B8430060E50D /* GBMWatcher.h */; };
-		B1F5AEC32147B8430060E50D /* GBMWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEC12147B8430060E50D /* GBMWatcher.m */; };
+		B1F5AEC82147C94A0060E50D /* GBMWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEC42147C94A0060E50D /* GBMWatcher.h */; };
+		B1F5AEC92147C94A0060E50D /* GBMWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEC52147C94A0060E50D /* GBMWatcher.m */; };
+		B1F5AECA2147C94A0060E50D /* GBMWatchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEC62147C94A0060E50D /* GBMWatchInfo.h */; };
+		B1F5AECB2147C94A0060E50D /* GBMWatchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEC72147C94A0060E50D /* GBMWatchInfo.m */; };
 		C3A75CC6F06E0EA1FFD18DFD7EF610BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C6D982838399470DB0709DABB4C721E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C86729D67509F70AA9DF2B5F0BE471CA /* Pods-GBMWatchInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A4C5F3ECC86CC0702B59E3AFED9D37 /* Pods-GBMWatchInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,10 +47,10 @@
 		A70054E3669A036E9482939D5A8F817F /* GBMWatchInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBMWatchInfo.xcconfig; sourceTree = "<group>"; };
 		A87DF6A0B44DCCFFA27F420C05750297 /* GBMWatchInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBMWatchInfo.modulemap; sourceTree = "<group>"; };
 		A98207D8ADC0AF67FBFC60E2822EBEB8 /* Pods-GBMWatchInfo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBMWatchInfo_Tests-resources.sh"; sourceTree = "<group>"; };
-		B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBMWatchInfo.h; sourceTree = "<group>"; };
-		B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBMWatchInfo.m; sourceTree = "<group>"; };
-		B1F5AEC02147B8430060E50D /* GBMWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBMWatcher.h; sourceTree = "<group>"; };
-		B1F5AEC12147B8430060E50D /* GBMWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBMWatcher.m; sourceTree = "<group>"; };
+		B1F5AEC42147C94A0060E50D /* GBMWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBMWatcher.h; path = GBMWatchInfo/Classes/GBMWatcher.h; sourceTree = "<group>"; };
+		B1F5AEC52147C94A0060E50D /* GBMWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBMWatcher.m; path = GBMWatchInfo/Classes/GBMWatcher.m; sourceTree = "<group>"; };
+		B1F5AEC62147C94A0060E50D /* GBMWatchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBMWatchInfo.h; path = GBMWatchInfo/Classes/GBMWatchInfo.h; sourceTree = "<group>"; };
+		B1F5AEC72147C94A0060E50D /* GBMWatchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBMWatchInfo.m; path = GBMWatchInfo/Classes/GBMWatchInfo.m; sourceTree = "<group>"; };
 		B6B754D01B06B205D743F234605C4273 /* Pods-GBMWatchInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBMWatchInfo_Tests-dummy.m"; sourceTree = "<group>"; };
 		B7FB233A80FB14AF4F8952E75E6B2F0C /* Pods-GBMWatchInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBMWatchInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C2D11DE860B8461F37B18188C608809B /* Pods-GBMWatchInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBMWatchInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		3A936281C44C536EF799A2D93DEFB5C5 /* GBMWatchInfo */ = {
 			isa = PBXGroup;
 			children = (
-				B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */,
-				B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */,
-				B1F5AEC02147B8430060E50D /* GBMWatcher.h */,
-				B1F5AEC12147B8430060E50D /* GBMWatcher.m */,
+				B1F5AEC42147C94A0060E50D /* GBMWatcher.h */,
+				B1F5AEC52147C94A0060E50D /* GBMWatcher.m */,
+				B1F5AEC62147C94A0060E50D /* GBMWatchInfo.h */,
+				B1F5AEC72147C94A0060E50D /* GBMWatchInfo.m */,
 				7C12C7B1FF135948B05D28A4DE791C18 /* Pod */,
 				8E92AB0D8256863628FEA71D6C730D99 /* Support Files */,
 			);
@@ -194,9 +194,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F5AEC82147C94A0060E50D /* GBMWatcher.h in Headers */,
 				385356EA99E26BD3242DF3721C086928 /* GBMWatchInfo-umbrella.h in Headers */,
-				B1F5AEC22147B8430060E50D /* GBMWatcher.h in Headers */,
-				B1F5AEBE2147B80F0060E50D /* GBMWatchInfo.h in Headers */,
+				B1F5AECA2147C94A0060E50D /* GBMWatchInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F5AECB2147C94A0060E50D /* GBMWatchInfo.m in Sources */,
 				5B1ECEEFF7D7F564BD53B479BC848276 /* GBMWatchInfo-dummy.m in Sources */,
-				B1F5AEBF2147B80F0060E50D /* GBMWatchInfo.m in Sources */,
-				B1F5AEC32147B8430060E50D /* GBMWatcher.m in Sources */,
+				B1F5AEC92147C94A0060E50D /* GBMWatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
