@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GBMWatchInfo_Tests' do
+  pod 'GBMWatchInfo', :path => '../'
+  
+  
+end
