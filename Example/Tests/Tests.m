@@ -2,8 +2,8 @@
 //  GBMWatchInfoTests.m
 //  GBMWatchInfoTests
 //
-//  Created by xuewu1011@163.com on 09/11/2018.
-//  Copyright (c) 2018 xuewu1011@163.com. All rights reserved.
+//  Created by iOSlong on 09/11/2018.
+//  Copyright (c) 2018 iOSlong. All rights reserved.
 //
 
 @import XCTest;

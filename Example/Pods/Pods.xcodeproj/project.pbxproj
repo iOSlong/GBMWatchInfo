@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		20C0B7DAC7DCD400EB23053AA16F280E /* Pods-GBMWatchInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B754D01B06B205D743F234605C4273 /* Pods-GBMWatchInfo_Tests-dummy.m */; };
 		385356EA99E26BD3242DF3721C086928 /* GBMWatchInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C97AABC6970F283C988E50A572F2248D /* GBMWatchInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48B10AC98249B6E7C9DF3604C69BD8BD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CEEBFD819C67043A86A26B6C7FE216 /* ReplaceMe.m */; };
 		5B1ECEEFF7D7F564BD53B479BC848276 /* GBMWatchInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 622F00A5DD277D27F92D03425E7876C2 /* GBMWatchInfo-dummy.m */; };
+		B1F5AEBE2147B80F0060E50D /* GBMWatchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */; };
+		B1F5AEBF2147B80F0060E50D /* GBMWatchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */; };
+		B1F5AEC22147B8430060E50D /* GBMWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F5AEC02147B8430060E50D /* GBMWatcher.h */; };
+		B1F5AEC32147B8430060E50D /* GBMWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5AEC12147B8430060E50D /* GBMWatcher.m */; };
 		C3A75CC6F06E0EA1FFD18DFD7EF610BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C6D982838399470DB0709DABB4C721E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C86729D67509F70AA9DF2B5F0BE471CA /* Pods-GBMWatchInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A4C5F3ECC86CC0702B59E3AFED9D37 /* Pods-GBMWatchInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,28 +30,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFE6FB03FCF7D4D7630F5F55AC5D6CE /* Pods_GBMWatchInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBMWatchInfo_Tests.framework; path = "Pods-GBMWatchInfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA8D8B6A7D158B93D4EBBF3C1E01213 /* GBMWatchInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBMWatchInfo.framework; path = GBMWatchInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1478297B0C8D7455714097B3113C2950 /* GBMWatchInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GBMWatchInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0DFE6FB03FCF7D4D7630F5F55AC5D6CE /* Pods_GBMWatchInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBMWatchInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA8D8B6A7D158B93D4EBBF3C1E01213 /* GBMWatchInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBMWatchInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1478297B0C8D7455714097B3113C2950 /* GBMWatchInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GBMWatchInfo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33967CBC898C0050875F4ECFAE1278BF /* Pods-GBMWatchInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBMWatchInfo_Tests.modulemap"; sourceTree = "<group>"; };
 		3892D21B88433944B168E3BC7D44242C /* GBMWatchInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBMWatchInfo-prefix.pch"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		622F00A5DD277D27F92D03425E7876C2 /* GBMWatchInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBMWatchInfo-dummy.m"; sourceTree = "<group>"; };
 		66A4C5F3ECC86CC0702B59E3AFED9D37 /* Pods-GBMWatchInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBMWatchInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		76DD26E51530AD7209ED90532BF1D112 /* Pods-GBMWatchInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBMWatchInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		77CEEBFD819C67043A86A26B6C7FE216 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GBMWatchInfo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		7B8FC99B06A2B24DBD413ECBBBA156F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7B8FC99B06A2B24DBD413ECBBBA156F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		87704681CC74E1B1D3DDDF411FB8EF39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		909FA9B7F74610999CC348964D2720EF /* Pods-GBMWatchInfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBMWatchInfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		981F19A2D33F539193EA8CAC4DC357E6 /* Pods-GBMWatchInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBMWatchInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A70054E3669A036E9482939D5A8F817F /* GBMWatchInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBMWatchInfo.xcconfig; sourceTree = "<group>"; };
 		A87DF6A0B44DCCFFA27F420C05750297 /* GBMWatchInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBMWatchInfo.modulemap; sourceTree = "<group>"; };
 		A98207D8ADC0AF67FBFC60E2822EBEB8 /* Pods-GBMWatchInfo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBMWatchInfo_Tests-resources.sh"; sourceTree = "<group>"; };
+		B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBMWatchInfo.h; sourceTree = "<group>"; };
+		B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBMWatchInfo.m; sourceTree = "<group>"; };
+		B1F5AEC02147B8430060E50D /* GBMWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBMWatcher.h; sourceTree = "<group>"; };
+		B1F5AEC12147B8430060E50D /* GBMWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBMWatcher.m; sourceTree = "<group>"; };
 		B6B754D01B06B205D743F234605C4273 /* Pods-GBMWatchInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBMWatchInfo_Tests-dummy.m"; sourceTree = "<group>"; };
 		B7FB233A80FB14AF4F8952E75E6B2F0C /* Pods-GBMWatchInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBMWatchInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C2D11DE860B8461F37B18188C608809B /* Pods-GBMWatchInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBMWatchInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6630249942D110C1641203E2CE74F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C6630249942D110C1641203E2CE74F39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C97AABC6970F283C988E50A572F2248D /* GBMWatchInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBMWatchInfo-umbrella.h"; sourceTree = "<group>"; };
 		F2D667776765E83E47DD646C39B3DF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +108,10 @@
 		3A936281C44C536EF799A2D93DEFB5C5 /* GBMWatchInfo */ = {
 			isa = PBXGroup;
 			children = (
-				77CEEBFD819C67043A86A26B6C7FE216 /* ReplaceMe.m */,
+				B1F5AEBC2147B80F0060E50D /* GBMWatchInfo.h */,
+				B1F5AEBD2147B80F0060E50D /* GBMWatchInfo.m */,
+				B1F5AEC02147B8430060E50D /* GBMWatcher.h */,
+				B1F5AEC12147B8430060E50D /* GBMWatcher.m */,
 				7C12C7B1FF135948B05D28A4DE791C18 /* Pod */,
 				8E92AB0D8256863628FEA71D6C730D99 /* Support Files */,
 			);
@@ -186,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				385356EA99E26BD3242DF3721C086928 /* GBMWatchInfo-umbrella.h in Headers */,
+				B1F5AEC22147B8430060E50D /* GBMWatcher.h in Headers */,
+				B1F5AEBE2147B80F0060E50D /* GBMWatchInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1ECEEFF7D7F564BD53B479BC848276 /* GBMWatchInfo-dummy.m in Sources */,
-				48B10AC98249B6E7C9DF3604C69BD8BD /* ReplaceMe.m in Sources */,
+				B1F5AEBF2147B80F0060E50D /* GBMWatchInfo.m in Sources */,
+				B1F5AEC32147B8430060E50D /* GBMWatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

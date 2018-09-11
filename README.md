@@ -1,6 +1,6 @@
 # GBMWatchInfo
 
-[![CI Status](https://img.shields.io/travis/xuewu1011@163.com/GBMWatchInfo.svg?style=flat)](https://travis-ci.org/xuewu1011@163.com/GBMWatchInfo)
+[![CI Status](https://img.shields.io/travis/iOSlong/GBMWatchInfo.svg?style=flat)](https://travis-ci.org/iOSlong/GBMWatchInfo)
 [![Version](https://img.shields.io/cocoapods/v/GBMWatchInfo.svg?style=flat)](https://cocoapods.org/pods/GBMWatchInfo)
 [![License](https://img.shields.io/cocoapods/l/GBMWatchInfo.svg?style=flat)](https://cocoapods.org/pods/GBMWatchInfo)
 [![Platform](https://img.shields.io/cocoapods/p/GBMWatchInfo.svg?style=flat)](https://cocoapods.org/pods/GBMWatchInfo)
@@ -22,7 +22,7 @@ pod 'GBMWatchInfo'
 
 ## Author
 
-xuewu1011@163.com
+iOSlong
 
 ## License
 
