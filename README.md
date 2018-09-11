@@ -22,8 +22,10 @@ pod 'GBMWatchInfo'
 
 ## Author
 
-xuewu1011@163.com, longxuewu@tv365.net
+xuewu1011@163.com
 
 ## License
 
 GBMWatchInfo is available under the MIT license. See the LICENSE file for more info.
+
+

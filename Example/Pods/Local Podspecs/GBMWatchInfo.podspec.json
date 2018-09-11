@@ -1,0 +1,22 @@
+{
+  "name": "GBMWatchInfo",
+  "version": "0.1.0",
+  "summary": "A short description of GBMWatchInfo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuewu1011@163.com/GBMWatchInfo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuewu1011@163.com": "longxuewu@tv365.net"
+  },
+  "source": {
+    "git": "https://github.com/xuewu1011@163.com/GBMWatchInfo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GBMWatchInfo/Classes/**/*"
+}

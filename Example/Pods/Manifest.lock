@@ -1,0 +1,16 @@
+PODS:
+  - GBMWatchInfo (0.1.0)
+
+DEPENDENCIES:
+  - GBMWatchInfo (from `../`)
+
+EXTERNAL SOURCES:
+  GBMWatchInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GBMWatchInfo: e569c8176432c5343ac051641f52af327f61ad20
+
+PODFILE CHECKSUM: 41bfabedf5279049182b1899d3d9465c752219b9
+
+COCOAPODS: 1.5.2
